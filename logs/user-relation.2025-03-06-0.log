@@ -1,0 +1,755 @@
+2025-03-06 20:15:59.973 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:16:00.034 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:16:00.210 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:16:00.211 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-03-06 20:16:00.211 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-03-06 20:16:00.212 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-03-06 20:16:00.236 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-03-06 20:16:00.236 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-03-06 20:16:00.238 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-03-06 20:16:00.424 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:16:00.439 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\admin\nacos\config
+2025-03-06 20:16:00.442 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 89deb37c-042d-4230-b6d4-d4f21096f7e0_config-0
+2025-03-06 20:16:00.454 [main] INFO  com.alibaba.nacos.common.remote.client - [89deb37c-042d-4230-b6d4-d4f21096f7e0_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$585/0x00000183a2391060
+2025-03-06 20:16:00.454 [main] INFO  com.alibaba.nacos.common.remote.client - [89deb37c-042d-4230-b6d4-d4f21096f7e0_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$586/0x00000183a2391480
+2025-03-06 20:16:00.455 [main] INFO  com.alibaba.nacos.common.remote.client - [89deb37c-042d-4230-b6d4-d4f21096f7e0_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-03-06 20:16:00.455 [main] INFO  com.alibaba.nacos.common.remote.client - [89deb37c-042d-4230-b6d4-d4f21096f7e0_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-03-06 20:16:00.460 [main] INFO  com.alibaba.nacos.common.remote.client - [89deb37c-042d-4230-b6d4-d4f21096f7e0_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-03-06 20:16:00.488 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-03-06 20:16:01.156 [main] INFO  com.alibaba.nacos.common.remote.client - [89deb37c-042d-4230-b6d4-d4f21096f7e0_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1741263360995_172.17.0.1_53018
+2025-03-06 20:16:01.156 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [89deb37c-042d-4230-b6d4-d4f21096f7e0_config-0] Notify connected event to listeners.
+2025-03-06 20:16:01.156 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [89deb37c-042d-4230-b6d4-d4f21096f7e0_config-0] Connected,notify listen context...
+2025-03-06 20:16:01.157 [main] INFO  com.alibaba.nacos.common.remote.client - [89deb37c-042d-4230-b6d4-d4f21096f7e0_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-03-06 20:16:01.157 [main] INFO  com.alibaba.nacos.common.remote.client - [89deb37c-042d-4230-b6d4-d4f21096f7e0_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$606/0x00000183a24d91e8
+2025-03-06 20:16:01.186 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-03-06 20:16:01.199 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation] & group[DEFAULT_GROUP]
+2025-03-06 20:16:01.207 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation.yaml] & group[DEFAULT_GROUP]
+2025-03-06 20:16:01.213 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation-dev.yaml] & group[DEFAULT_GROUP]
+2025-03-06 20:16:01.213 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation,DEFAULT_GROUP'}]
+2025-03-06 20:16:01.236 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:16:01.236 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-03-06 20:16:01.683 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-03-06 20:16:01.685 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-06 20:16:01.699 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-03-06 20:16:01.808 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=4e3205ab-39ef-38fe-b862-8cdb7e892169
+2025-03-06 20:16:01.837 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:16:01.995 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:16:02.032 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:16:02.034 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:16:02.036 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:16:02.036 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$760/0x00000183a26a4880] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:16:02.037 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:16:02.040 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:16:02.041 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:16:02.187 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-03-06 20:16:02.193 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 20:16:02.193 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-03-06 20:16:02.250 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 20:16:02.250 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1002 ms
+2025-03-06 20:16:02.322 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-03-06 20:16:06.517 [main] ERROR com.alibaba.druid.pool.DruidDataSource - init datasource error, url: jdbc:mysql://127.0.0.1:3306/xiaohashu?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:898)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:132)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:764)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:126)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:244)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:126)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1687)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1803)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:924)
+	at com.alibaba.druid.spring.boot3.autoconfigure.DruidDataSourceWrapper.afterPropertiesSet(DruidDataSourceWrapper.java:51)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:548)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1479)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1388)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:242)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.XiaohashuUserRelationBizApplication.main(XiaohashuUserRelationBizApplication.java:14)
+Caused by: com.mysql.cj.exceptions.CJException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:124)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:153)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:447)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:212)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1433)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:842)
+	... 70 common frames omitted
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	... 76 common frames omitted
+2025-03-06 20:16:06.520 [main] ERROR com.alibaba.druid.pool.DruidDataSource - {dataSource-1} init error
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:898)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:132)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:764)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:126)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:244)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:126)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1687)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1803)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:924)
+	at com.alibaba.druid.spring.boot3.autoconfigure.DruidDataSourceWrapper.afterPropertiesSet(DruidDataSourceWrapper.java:51)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:548)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1479)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1388)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:242)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.XiaohashuUserRelationBizApplication.main(XiaohashuUserRelationBizApplication.java:14)
+Caused by: com.mysql.cj.exceptions.CJException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:124)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:153)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:447)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:212)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1433)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:842)
+	... 70 common frames omitted
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	... 76 common frames omitted
+2025-03-06 20:16:06.520 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-06 20:16:06.521 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'followUnfollowConsumer': Injection of resource dependencies failed
+2025-03-06 20:16:06.521 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-03-06 20:16:06.539 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-06 20:16:06.551 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'followUnfollowConsumer': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.XiaohashuUserRelationBizApplication.main(XiaohashuUserRelationBizApplication.java:14)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'followingDOMapper' defined in file [E:\xiaohashu16.8\xiaohashu2\xiaohashu-user-relation\xiaohashu-user-relation-biz\target\classes\com\quanxiaoha\xiaohashu\user\relation\biz\domain\mapper\FollowingDOMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory': Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot3/autoconfigure/DruidDataSourceAutoConfigure.class]: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1494)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1388)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:242)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	... 17 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot3/autoconfigure/DruidDataSourceAutoConfigure.class]: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:548)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1479)
+	... 31 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot3/autoconfigure/DruidDataSourceAutoConfigure.class]: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 44 common frames omitted
+Caused by: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:898)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:132)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:764)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:126)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:244)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:126)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1687)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1803)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:924)
+	at com.alibaba.druid.spring.boot3.autoconfigure.DruidDataSourceWrapper.afterPropertiesSet(DruidDataSourceWrapper.java:51)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	... 55 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:124)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:153)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:447)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:212)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1433)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:842)
+	... 70 common frames omitted
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	... 76 common frames omitted
+2025-03-06 20:16:06.552 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-03-06 20:16:06.552 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-03-06 20:16:06.552 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-03-06 20:16:06.553 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-03-06 20:38:06.510 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:38:06.560 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:38:06.721 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:38:06.723 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-03-06 20:38:06.723 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-03-06 20:38:06.724 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-03-06 20:38:06.743 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-03-06 20:38:06.743 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-03-06 20:38:06.745 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-03-06 20:38:06.951 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:38:06.960 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\admin\nacos\config
+2025-03-06 20:38:06.962 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 91478c19-849a-4f80-8378-d9b5b386cf02_config-0
+2025-03-06 20:38:06.974 [main] INFO  com.alibaba.nacos.common.remote.client - [91478c19-849a-4f80-8378-d9b5b386cf02_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$585/0x00000244c83901f8
+2025-03-06 20:38:06.974 [main] INFO  com.alibaba.nacos.common.remote.client - [91478c19-849a-4f80-8378-d9b5b386cf02_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$586/0x00000244c8390618
+2025-03-06 20:38:06.974 [main] INFO  com.alibaba.nacos.common.remote.client - [91478c19-849a-4f80-8378-d9b5b386cf02_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-03-06 20:38:06.975 [main] INFO  com.alibaba.nacos.common.remote.client - [91478c19-849a-4f80-8378-d9b5b386cf02_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-03-06 20:38:06.979 [main] INFO  com.alibaba.nacos.common.remote.client - [91478c19-849a-4f80-8378-d9b5b386cf02_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-03-06 20:38:06.998 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-03-06 20:38:07.677 [main] INFO  com.alibaba.nacos.common.remote.client - [91478c19-849a-4f80-8378-d9b5b386cf02_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1741264687507_172.17.0.1_55522
+2025-03-06 20:38:07.677 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [91478c19-849a-4f80-8378-d9b5b386cf02_config-0] Notify connected event to listeners.
+2025-03-06 20:38:07.677 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [91478c19-849a-4f80-8378-d9b5b386cf02_config-0] Connected,notify listen context...
+2025-03-06 20:38:07.677 [main] INFO  com.alibaba.nacos.common.remote.client - [91478c19-849a-4f80-8378-d9b5b386cf02_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-03-06 20:38:07.677 [main] INFO  com.alibaba.nacos.common.remote.client - [91478c19-849a-4f80-8378-d9b5b386cf02_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$606/0x00000244c84dc440
+2025-03-06 20:38:07.708 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-03-06 20:38:07.721 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation] & group[DEFAULT_GROUP]
+2025-03-06 20:38:07.725 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation.yaml] & group[DEFAULT_GROUP]
+2025-03-06 20:38:07.728 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation-dev.yaml] & group[DEFAULT_GROUP]
+2025-03-06 20:38:07.729 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation,DEFAULT_GROUP'}]
+2025-03-06 20:38:07.753 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:38:07.753 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-03-06 20:38:08.207 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-03-06 20:38:08.209 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-06 20:38:08.224 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-03-06 20:38:08.339 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=4e3205ab-39ef-38fe-b862-8cdb7e892169
+2025-03-06 20:38:08.361 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:08.526 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:08.558 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:08.560 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:08.562 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:08.563 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$760/0x00000244c86a31b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:08.563 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:08.567 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:08.567 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:08.743 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-03-06 20:38:08.749 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 20:38:08.749 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-03-06 20:38:08.808 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 20:38:08.808 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1043 ms
+2025-03-06 20:38:08.876 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-03-06 20:38:09.085 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-06 20:38:09.737 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - running container: DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group', namespace='', nameServer='127.0.0.1:9876', topic='FollowUnfollowTopic', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-03-06 20:38:09.738 [main] INFO  o.a.r.s.a.ListenerContainerConfiguration - Register the listener to container, listenerBeanName:followUnfollowConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2025-03-06 20:38:09.823 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-03-06 20:38:09.863 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-03-06 20:38:10.415 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-03-06 20:38:10.455 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-03-06 20:38:10.779 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - container destroyed, DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group', namespace='', nameServer='127.0.0.1:9876', topic='FollowUnfollowTopic', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-03-06 20:38:10.790 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-06 20:38:10.794 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-03-06 20:38:10.794 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-03-06 20:38:10.810 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-06 20:38:10.823 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8086 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8086 or configure this application to listen on another port.
+
+2025-03-06 20:38:13.807 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-03-06 20:38:13.807 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-03-06 20:38:13.807 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-03-06 20:38:13.808 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-03-06 20:38:53.162 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:38:53.212 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:38:53.376 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:38:53.378 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-03-06 20:38:53.378 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-03-06 20:38:53.379 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-03-06 20:38:53.399 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-03-06 20:38:53.399 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-03-06 20:38:53.401 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-03-06 20:38:53.587 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:38:53.598 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\admin\nacos\config
+2025-03-06 20:38:53.601 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of efb6e680-938f-4457-ad64-427d3e72c33a_config-0
+2025-03-06 20:38:53.614 [main] INFO  com.alibaba.nacos.common.remote.client - [efb6e680-938f-4457-ad64-427d3e72c33a_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$585/0x000002a63c391258
+2025-03-06 20:38:53.614 [main] INFO  com.alibaba.nacos.common.remote.client - [efb6e680-938f-4457-ad64-427d3e72c33a_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$586/0x000002a63c391678
+2025-03-06 20:38:53.614 [main] INFO  com.alibaba.nacos.common.remote.client - [efb6e680-938f-4457-ad64-427d3e72c33a_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-03-06 20:38:53.615 [main] INFO  com.alibaba.nacos.common.remote.client - [efb6e680-938f-4457-ad64-427d3e72c33a_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-03-06 20:38:53.621 [main] INFO  com.alibaba.nacos.common.remote.client - [efb6e680-938f-4457-ad64-427d3e72c33a_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-03-06 20:38:53.641 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-03-06 20:38:54.306 [main] INFO  com.alibaba.nacos.common.remote.client - [efb6e680-938f-4457-ad64-427d3e72c33a_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1741264734146_172.17.0.1_52674
+2025-03-06 20:38:54.306 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [efb6e680-938f-4457-ad64-427d3e72c33a_config-0] Notify connected event to listeners.
+2025-03-06 20:38:54.306 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [efb6e680-938f-4457-ad64-427d3e72c33a_config-0] Connected,notify listen context...
+2025-03-06 20:38:54.306 [main] INFO  com.alibaba.nacos.common.remote.client - [efb6e680-938f-4457-ad64-427d3e72c33a_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-03-06 20:38:54.307 [main] INFO  com.alibaba.nacos.common.remote.client - [efb6e680-938f-4457-ad64-427d3e72c33a_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$606/0x000002a63c4d8d88
+2025-03-06 20:38:54.338 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-03-06 20:38:54.350 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation] & group[DEFAULT_GROUP]
+2025-03-06 20:38:54.353 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation.yaml] & group[DEFAULT_GROUP]
+2025-03-06 20:38:54.357 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation-dev.yaml] & group[DEFAULT_GROUP]
+2025-03-06 20:38:54.358 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation,DEFAULT_GROUP'}]
+2025-03-06 20:38:54.381 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:38:54.381 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-03-06 20:38:54.790 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-03-06 20:38:54.792 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-06 20:38:54.807 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-03-06 20:38:54.905 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=4e3205ab-39ef-38fe-b862-8cdb7e892169
+2025-03-06 20:38:54.924 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:55.070 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:55.106 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:55.109 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:55.109 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:55.110 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$760/0x000002a63c6a3810] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:55.111 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:55.114 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:55.114 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:38:55.258 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-03-06 20:38:55.265 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 20:38:55.265 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-03-06 20:38:55.316 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 20:38:55.316 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 924 ms
+2025-03-06 20:38:55.377 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-03-06 20:38:55.561 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-06 20:38:56.113 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - running container: DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group', namespace='', nameServer='127.0.0.1:9876', topic='FollowUnfollowTopic', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-03-06 20:38:56.113 [main] INFO  o.a.r.s.a.ListenerContainerConfiguration - Register the listener to container, listenerBeanName:followUnfollowConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2025-03-06 20:38:56.186 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-03-06 20:38:56.215 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-03-06 20:38:56.760 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-03-06 20:38:56.796 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-03-06 20:38:57.142 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - container destroyed, DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group', namespace='', nameServer='127.0.0.1:9876', topic='FollowUnfollowTopic', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-03-06 20:38:57.152 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-06 20:38:57.156 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-03-06 20:38:57.157 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-03-06 20:38:57.173 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-06 20:38:57.184 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8086 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8086 or configure this application to listen on another port.
+
+2025-03-06 20:39:00.168 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-03-06 20:39:00.168 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-03-06 20:39:00.169 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-03-06 20:39:00.169 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-03-06 20:39:08.676 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:39:08.727 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:39:08.885 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:39:08.887 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-03-06 20:39:08.887 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-03-06 20:39:08.887 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-03-06 20:39:08.906 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-03-06 20:39:08.906 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-03-06 20:39:08.908 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-03-06 20:39:09.089 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:39:09.098 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\admin\nacos\config
+2025-03-06 20:39:09.101 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of ad5dbe23-7d5c-413e-8499-bcaec1f7c93f_config-0
+2025-03-06 20:39:09.112 [main] INFO  com.alibaba.nacos.common.remote.client - [ad5dbe23-7d5c-413e-8499-bcaec1f7c93f_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$585/0x0000013801391258
+2025-03-06 20:39:09.113 [main] INFO  com.alibaba.nacos.common.remote.client - [ad5dbe23-7d5c-413e-8499-bcaec1f7c93f_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$586/0x0000013801391678
+2025-03-06 20:39:09.113 [main] INFO  com.alibaba.nacos.common.remote.client - [ad5dbe23-7d5c-413e-8499-bcaec1f7c93f_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-03-06 20:39:09.113 [main] INFO  com.alibaba.nacos.common.remote.client - [ad5dbe23-7d5c-413e-8499-bcaec1f7c93f_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-03-06 20:39:09.118 [main] INFO  com.alibaba.nacos.common.remote.client - [ad5dbe23-7d5c-413e-8499-bcaec1f7c93f_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-03-06 20:39:09.137 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-03-06 20:39:09.797 [main] INFO  com.alibaba.nacos.common.remote.client - [ad5dbe23-7d5c-413e-8499-bcaec1f7c93f_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1741264749636_172.17.0.1_50824
+2025-03-06 20:39:09.797 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [ad5dbe23-7d5c-413e-8499-bcaec1f7c93f_config-0] Notify connected event to listeners.
+2025-03-06 20:39:09.797 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [ad5dbe23-7d5c-413e-8499-bcaec1f7c93f_config-0] Connected,notify listen context...
+2025-03-06 20:39:09.798 [main] INFO  com.alibaba.nacos.common.remote.client - [ad5dbe23-7d5c-413e-8499-bcaec1f7c93f_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-03-06 20:39:09.798 [main] INFO  com.alibaba.nacos.common.remote.client - [ad5dbe23-7d5c-413e-8499-bcaec1f7c93f_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$606/0x00000138014d8d88
+2025-03-06 20:39:09.828 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-03-06 20:39:09.843 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation] & group[DEFAULT_GROUP]
+2025-03-06 20:39:09.848 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation.yaml] & group[DEFAULT_GROUP]
+2025-03-06 20:39:09.851 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation-dev.yaml] & group[DEFAULT_GROUP]
+2025-03-06 20:39:09.852 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation,DEFAULT_GROUP'}]
+2025-03-06 20:39:09.874 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:39:09.874 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-03-06 20:39:10.285 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-03-06 20:39:10.287 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-06 20:39:10.301 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-03-06 20:39:10.398 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=4e3205ab-39ef-38fe-b862-8cdb7e892169
+2025-03-06 20:39:10.420 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:10.570 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:10.608 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:10.610 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:10.612 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:10.612 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$760/0x00000138016a3810] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:10.613 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:10.617 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:10.618 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:10.755 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-03-06 20:39:10.761 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 20:39:10.761 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-03-06 20:39:10.817 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 20:39:10.817 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 932 ms
+2025-03-06 20:39:10.883 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-03-06 20:39:11.080 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-06 20:39:11.661 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - running container: DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group', namespace='', nameServer='127.0.0.1:9876', topic='FollowUnfollowTopic', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-03-06 20:39:11.661 [main] INFO  o.a.r.s.a.ListenerContainerConfiguration - Register the listener to container, listenerBeanName:followUnfollowConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2025-03-06 20:39:11.726 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-03-06 20:39:11.755 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-03-06 20:39:12.300 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-03-06 20:39:12.350 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2025-03-06 20:39:12.353 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-03-06 20:39:12.353 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-03-06 20:39:12.354 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-03-06 20:39:12.359 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-03-06 20:39:12.359 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-03-06 20:39:12.361 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 8bcc40da-f083-4e09-93ec-659c4e126886
+2025-03-06 20:39:12.362 [main] INFO  com.alibaba.nacos.common.remote.client - [8bcc40da-f083-4e09-93ec-659c4e126886] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-03-06 20:39:12.362 [main] INFO  com.alibaba.nacos.common.remote.client - [8bcc40da-f083-4e09-93ec-659c4e126886] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-03-06 20:39:12.363 [main] INFO  com.alibaba.nacos.common.remote.client - [8bcc40da-f083-4e09-93ec-659c4e126886] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-03-06 20:39:12.363 [main] INFO  com.alibaba.nacos.common.remote.client - [8bcc40da-f083-4e09-93ec-659c4e126886] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-03-06 20:39:12.363 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-03-06 20:39:12.477 [main] INFO  com.alibaba.nacos.common.remote.client - [8bcc40da-f083-4e09-93ec-659c4e126886] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1741264752370_172.17.0.1_50828
+2025-03-06 20:39:12.477 [main] INFO  com.alibaba.nacos.common.remote.client - [8bcc40da-f083-4e09-93ec-659c4e126886] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-03-06 20:39:12.477 [main] INFO  com.alibaba.nacos.common.remote.client - [8bcc40da-f083-4e09-93ec-659c4e126886] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$606/0x00000138014d8d88
+2025-03-06 20:39:12.477 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [8bcc40da-f083-4e09-93ec-659c4e126886] Notify connected event to listeners.
+2025-03-06 20:39:12.477 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-03-06 20:39:12.478 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-user-relation with instance Instance{instanceId='null', ip='10.108.20.173', port=8086, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=[2001:da8:204:1081:0:2ea3:f013:4e5b], preserved.register.source=SPRING_CLOUD}}
+2025-03-06 20:39:12.486 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user-relation 10.108.20.173:8086 register finished
+2025-03-06 20:39:12.617 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - Started XiaohashuUserRelationBizApplication in 4.44 seconds (process running for 4.799)
+2025-03-06 20:39:12.619 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-03-06 20:39:12.619 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-user-relation.yaml+DEFAULT_GROUP+xiaohashu
+2025-03-06 20:39:12.625 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-user-relation.yaml, group=DEFAULT_GROUP, cnt=1
+2025-03-06 20:39:12.625 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-user-relation.yaml, group=DEFAULT_GROUP
+2025-03-06 20:39:12.625 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-user-relation+DEFAULT_GROUP+xiaohashu
+2025-03-06 20:39:12.625 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-user-relation, group=DEFAULT_GROUP, cnt=1
+2025-03-06 20:39:12.625 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-user-relation, group=DEFAULT_GROUP
+2025-03-06 20:39:12.625 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-user-relation-dev.yaml+DEFAULT_GROUP+xiaohashu
+2025-03-06 20:39:12.625 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-user-relation-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-03-06 20:39:12.625 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-user-relation-dev.yaml, group=DEFAULT_GROUP
+2025-03-06 20:39:56.564 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:39:56.617 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:39:56.783 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:39:56.785 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-03-06 20:39:56.785 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-03-06 20:39:56.785 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-03-06 20:39:56.804 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-03-06 20:39:56.804 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-03-06 20:39:56.806 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-03-06 20:39:57.000 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:39:57.010 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\admin\nacos\config
+2025-03-06 20:39:57.013 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of a103da5d-c886-4d05-ac3f-030c362d01aa_config-0
+2025-03-06 20:39:57.025 [main] INFO  com.alibaba.nacos.common.remote.client - [a103da5d-c886-4d05-ac3f-030c362d01aa_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$585/0x000002204a391830
+2025-03-06 20:39:57.026 [main] INFO  com.alibaba.nacos.common.remote.client - [a103da5d-c886-4d05-ac3f-030c362d01aa_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$586/0x000002204a391c50
+2025-03-06 20:39:57.026 [main] INFO  com.alibaba.nacos.common.remote.client - [a103da5d-c886-4d05-ac3f-030c362d01aa_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-03-06 20:39:57.026 [main] INFO  com.alibaba.nacos.common.remote.client - [a103da5d-c886-4d05-ac3f-030c362d01aa_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-03-06 20:39:57.031 [main] INFO  com.alibaba.nacos.common.remote.client - [a103da5d-c886-4d05-ac3f-030c362d01aa_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-03-06 20:39:57.051 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-03-06 20:39:57.693 [main] INFO  com.alibaba.nacos.common.remote.client - [a103da5d-c886-4d05-ac3f-030c362d01aa_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1741264797535_172.17.0.1_34832
+2025-03-06 20:39:57.693 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [a103da5d-c886-4d05-ac3f-030c362d01aa_config-0] Notify connected event to listeners.
+2025-03-06 20:39:57.693 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [a103da5d-c886-4d05-ac3f-030c362d01aa_config-0] Connected,notify listen context...
+2025-03-06 20:39:57.693 [main] INFO  com.alibaba.nacos.common.remote.client - [a103da5d-c886-4d05-ac3f-030c362d01aa_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-03-06 20:39:57.693 [main] INFO  com.alibaba.nacos.common.remote.client - [a103da5d-c886-4d05-ac3f-030c362d01aa_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$606/0x000002204a4d8d88
+2025-03-06 20:39:57.722 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-03-06 20:39:57.733 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation] & group[DEFAULT_GROUP]
+2025-03-06 20:39:57.737 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation.yaml] & group[DEFAULT_GROUP]
+2025-03-06 20:39:57.740 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation-dev.yaml] & group[DEFAULT_GROUP]
+2025-03-06 20:39:57.741 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation,DEFAULT_GROUP'}]
+2025-03-06 20:39:57.764 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-03-06 20:39:57.764 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-03-06 20:39:58.155 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-03-06 20:39:58.157 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-06 20:39:58.169 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-03-06 20:39:58.265 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=4e3205ab-39ef-38fe-b862-8cdb7e892169
+2025-03-06 20:39:58.286 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:58.428 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:58.462 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:58.464 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:58.464 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:58.464 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$760/0x000002204a6a3cb8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:58.465 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:58.469 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:58.470 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-06 20:39:58.612 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-03-06 20:39:58.625 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 20:39:58.625 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-03-06 20:39:58.689 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 20:39:58.689 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 915 ms
+2025-03-06 20:39:58.753 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-03-06 20:39:58.944 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-06 20:39:59.488 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - running container: DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group', namespace='', nameServer='127.0.0.1:9876', topic='FollowUnfollowTopic', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-03-06 20:39:59.488 [main] INFO  o.a.r.s.a.ListenerContainerConfiguration - Register the listener to container, listenerBeanName:followUnfollowConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2025-03-06 20:39:59.550 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-03-06 20:39:59.580 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-03-06 20:40:00.131 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-03-06 20:40:00.177 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2025-03-06 20:40:00.179 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-03-06 20:40:00.180 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-03-06 20:40:00.180 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-03-06 20:40:00.185 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-03-06 20:40:00.185 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-03-06 20:40:00.187 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of b943cdeb-4717-48fd-89b7-9e42795d1350
+2025-03-06 20:40:00.188 [main] INFO  com.alibaba.nacos.common.remote.client - [b943cdeb-4717-48fd-89b7-9e42795d1350] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-03-06 20:40:00.188 [main] INFO  com.alibaba.nacos.common.remote.client - [b943cdeb-4717-48fd-89b7-9e42795d1350] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-03-06 20:40:00.189 [main] INFO  com.alibaba.nacos.common.remote.client - [b943cdeb-4717-48fd-89b7-9e42795d1350] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-03-06 20:40:00.189 [main] INFO  com.alibaba.nacos.common.remote.client - [b943cdeb-4717-48fd-89b7-9e42795d1350] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-03-06 20:40:00.189 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-03-06 20:40:00.340 [main] INFO  com.alibaba.nacos.common.remote.client - [b943cdeb-4717-48fd-89b7-9e42795d1350] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1741264800223_172.17.0.1_34842
+2025-03-06 20:40:00.340 [main] INFO  com.alibaba.nacos.common.remote.client - [b943cdeb-4717-48fd-89b7-9e42795d1350] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-03-06 20:40:00.340 [main] INFO  com.alibaba.nacos.common.remote.client - [b943cdeb-4717-48fd-89b7-9e42795d1350] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$606/0x000002204a4d8d88
+2025-03-06 20:40:00.340 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [b943cdeb-4717-48fd-89b7-9e42795d1350] Notify connected event to listeners.
+2025-03-06 20:40:00.340 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-03-06 20:40:00.341 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-user-relation with instance Instance{instanceId='null', ip='10.108.20.173', port=8086, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=[2001:da8:204:1081:0:2ea3:f013:4e5b], preserved.register.source=SPRING_CLOUD}}
+2025-03-06 20:40:00.349 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user-relation 10.108.20.173:8086 register finished
+2025-03-06 20:40:00.476 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - Started XiaohashuUserRelationBizApplication in 4.422 seconds (process running for 4.798)
+2025-03-06 20:40:00.479 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-03-06 20:40:00.479 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-user-relation.yaml+DEFAULT_GROUP+xiaohashu
+2025-03-06 20:40:00.483 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-user-relation.yaml, group=DEFAULT_GROUP, cnt=1
+2025-03-06 20:40:00.483 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-user-relation.yaml, group=DEFAULT_GROUP
+2025-03-06 20:40:00.483 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-user-relation+DEFAULT_GROUP+xiaohashu
+2025-03-06 20:40:00.483 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-user-relation, group=DEFAULT_GROUP, cnt=1
+2025-03-06 20:40:00.483 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-user-relation, group=DEFAULT_GROUP
+2025-03-06 20:40:00.484 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-user-relation-dev.yaml+DEFAULT_GROUP+xiaohashu
+2025-03-06 20:40:00.484 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-user-relation-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-03-06 20:40:00.484 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-user-relation-dev.yaml, group=DEFAULT_GROUP
+2025-03-06 21:24:49.428 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-03-06 21:24:49.428 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-03-06 21:24:49.428 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-03-06 21:24:49.429 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-03-06 21:24:50.467 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-03-06 21:24:50.468 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] xiaohashu deregistering service xiaohashu-user-relation with instance: Instance{instanceId='null', ip='10.108.20.173', port=8086, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-03-06 21:24:50.471 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@74b1898a[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-03-06 21:24:50.472 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1741264800223_172.17.0.1_34842
+2025-03-06 21:24:50.474 [nacos-grpc-client-executor-127.0.0.1-550] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1741264800223_172.17.0.1_34842]Ignore complete event,isRunning:false,isAbandon=false
+2025-03-06 21:24:50.475 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@71345340[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 551]
+2025-03-06 21:24:50.475 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@7191467f[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 895]
+2025-03-06 21:24:50.475 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-03-06 21:24:50.475 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-03-06 21:24:50.475 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-03-06 21:24:50.479 [SpringApplicationShutdownHook] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - container destroyed, DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group', namespace='', nameServer='127.0.0.1:9876', topic='FollowUnfollowTopic', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-03-06 21:24:50.489 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-06 21:24:50.490 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -1,0 +1,49 @@
+2024-09-14 17:38:59.333 [http-nio-8082-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-14 17:38:59.353 [http-nio-8082-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":26}, 请求类: UserController, 请求方法: findById =================================== 
+2024-09-14 17:38:59.360 [http-nio-8082-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 8ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":26,"nickName":"小红薯10025","avatar":null}} =================================== 
+2024-09-14 17:38:59.363 [http-nio-8082-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-14 17:39:14.110 [http-nio-8082-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-14 17:39:14.111 [http-nio-8082-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":26}, 请求类: UserController, 请求方法: findById =================================== 
+2024-09-14 17:39:14.111 [http-nio-8082-exec-6] INFO  c.q.x.user.biz.service.impl.UserServiceImpl - ==> 命中了本地缓存；FindUserByIdRspDTO(id=26, nickName=小红薯10025, avatar=null)
+2024-09-14 17:39:14.111 [http-nio-8082-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 0ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":26,"nickName":"小红薯10025","avatar":null}} =================================== 
+2024-09-14 17:39:14.111 [http-nio-8082-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-14 17:42:21.853 [http-nio-8082-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-14 17:42:21.856 [http-nio-8082-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":26}, 请求类: UserController, 请求方法: findById =================================== 
+2024-09-14 17:42:21.856 [http-nio-8082-exec-8] INFO  c.q.x.user.biz.service.impl.UserServiceImpl - ==> 命中了本地缓存；FindUserByIdRspDTO(id=26, nickName=小红薯10025, avatar=null)
+2024-09-14 17:42:21.856 [http-nio-8082-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":26,"nickName":"小红薯10025","avatar":null}} =================================== 
+2024-09-14 17:42:21.857 [http-nio-8082-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-14 17:43:00.009 [http-nio-8082-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-14 17:43:00.010 [http-nio-8082-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":100}, 请求类: UserController, 请求方法: findById =================================== 
+2024-09-14 17:43:00.026 [http-nio-8082-exec-9] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2024-09-14 17:43:00.028 [http-nio-8082-exec-9] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 100(Long)
+2024-09-14 17:43:00.032 [http-nio-8082-exec-9] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2024-09-14 17:43:00.033 [http-nio-8082-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 23ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg"}} =================================== 
+2024-09-14 17:43:00.033 [http-nio-8082-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-14 17:43:54.679 [http-nio-8082-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-14 17:43:54.680 [http-nio-8082-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":101}, 请求类: UserController, 请求方法: findById =================================== 
+2024-09-14 17:43:54.681 [http-nio-8082-exec-1] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2024-09-14 17:43:54.682 [http-nio-8082-exec-1] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 101(Long)
+2024-09-14 17:43:54.683 [http-nio-8082-exec-1] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2024-09-14 17:43:54.683 [http-nio-8082-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 3ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg"}} =================================== 
+2024-09-14 17:43:54.683 [http-nio-8082-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-14 17:44:31.255 [http-nio-8082-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-14 17:44:31.256 [http-nio-8082-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":102}, 请求类: UserController, 请求方法: findById =================================== 
+2024-09-14 17:44:31.257 [http-nio-8082-exec-4] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2024-09-14 17:44:31.257 [http-nio-8082-exec-4] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 102(Long)
+2024-09-14 17:44:31.258 [http-nio-8082-exec-4] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 0
+2024-09-14 17:44:31.259 [http-nio-8082-exec-4] WARN  c.q.x.user.biz.exception.GlobalExceptionHandler - /user/findById request fail, errorCode: USER-20007, errorMessage: 该用户不存在
+2024-09-14 17:44:31.260 [http-nio-8082-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-14 17:44:40.623 [http-nio-8082-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-14 17:44:40.625 [http-nio-8082-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":28}, 请求类: UserController, 请求方法: findById =================================== 
+2024-09-14 17:44:40.626 [http-nio-8082-exec-3] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2024-09-14 17:44:40.626 [http-nio-8082-exec-3] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 28(Long)
+2024-09-14 17:44:40.627 [http-nio-8082-exec-3] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2024-09-14 17:44:40.627 [http-nio-8082-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 3ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":28,"nickName":"小红薯10100","avatar":null}} =================================== 
+2024-09-14 17:44:40.628 [http-nio-8082-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-14 17:46:27.574 [http-nio-8082-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-14 17:46:27.575 [http-nio-8082-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":24}, 请求类: UserController, 请求方法: findById =================================== 
+2024-09-14 17:46:27.577 [http-nio-8082-exec-5] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2024-09-14 17:46:27.577 [http-nio-8082-exec-5] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 24(Long)
+2024-09-14 17:46:27.579 [http-nio-8082-exec-5] DEBUG c.q.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2024-09-14 17:46:27.579 [http-nio-8082-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 4ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":24,"nickName":"小红薯10023","avatar":null}} =================================== 
+2024-09-14 17:46:27.580 [http-nio-8082-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27

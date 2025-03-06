@@ -1,0 +1,648 @@
+2024-09-26 16:17:48.654 [Thread-10] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-09-26 16:17:48.654 [Thread-7] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2024-09-26 16:17:48.658 [Thread-7] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2024-09-26 16:17:48.660 [Thread-10] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2024-09-26 16:17:48.756 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2024-09-26 16:17:48.757 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] xiaohashu deregistering service xiaohashu-user with instance: Instance{instanceId='null', ip='192.168.1.3', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2024-09-26 16:17:48.763 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2024-09-26 16:17:48.764 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2024-09-26 16:17:48.764 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@66b9c30e[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2024-09-26 16:17:48.764 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1727263014029_172.17.0.1_57720
+2024-09-26 16:17:48.766 [nacos-grpc-client-executor-127.0.0.1-7575] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1727263014029_172.17.0.1_57720]Ignore complete event,isRunning:false,isAbandon=false
+2024-09-26 16:17:48.767 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@4db57266[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 7576]
+2024-09-26 16:17:48.767 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@e8e9177[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 12512]
+2024-09-26 16:17:48.768 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2024-09-26 16:17:48.768 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2024-09-26 16:17:48.768 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2024-09-26 16:17:48.913 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-09-26 16:17:48.914 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-09-26 16:17:51.932 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:17:51.986 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:17:52.261 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:17:52.268 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:17:52.268 [main] INFO  c.q.xiaohashu.user.biz.XiaohashuUserBizApplication - The following 1 profile is active: "dev"
+2024-09-26 16:17:52.609 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-26 16:17:52.610 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-26 16:17:52.623 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-09-26 16:17:52.753 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3b287b35-df5a-313c-94ad-436aa746b180
+2024-09-26 16:17:52.782 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.oss.api.FileFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-26 16:17:52.783 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-26 16:17:52.784 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-26 16:17:53.175 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-09-26 16:17:53.180 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-26 16:17:53.180 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-09-26 16:17:53.230 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-26 16:17:53.231 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 953 ms
+2024-09-26 16:17:53.301 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-09-26 16:17:53.507 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-09-26 16:17:53.689 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-oss' URL not provided. Will try picking an instance via load-balancing.
+2024-09-26 16:17:53.860 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2024-09-26 16:17:54.338 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-09-26 16:17:54.342 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:17:54.342 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2024-09-26 16:17:54.343 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2024-09-26 16:17:54.343 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2024-09-26 16:17:54.356 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2024-09-26 16:17:54.356 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2024-09-26 16:17:54.357 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2024-09-26 16:17:54.359 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2024-09-26 16:17:54.359 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2024-09-26 16:17:54.360 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2024-09-26 16:17:54.366 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of dfe37612-291b-49a7-9c99-20fd5dfc4c54
+2024-09-26 16:17:54.377 [main] INFO  com.alibaba.nacos.common.remote.client - [dfe37612-291b-49a7-9c99-20fd5dfc4c54] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2024-09-26 16:17:54.377 [main] INFO  com.alibaba.nacos.common.remote.client - [dfe37612-291b-49a7-9c99-20fd5dfc4c54] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2024-09-26 16:17:54.378 [main] INFO  com.alibaba.nacos.common.remote.client - [dfe37612-291b-49a7-9c99-20fd5dfc4c54] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2024-09-26 16:17:54.379 [main] INFO  com.alibaba.nacos.common.remote.client - [dfe37612-291b-49a7-9c99-20fd5dfc4c54] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2024-09-26 16:17:54.394 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2024-09-26 16:17:54.942 [main] INFO  com.alibaba.nacos.common.remote.client - [dfe37612-291b-49a7-9c99-20fd5dfc4c54] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1727338674794_172.17.0.1_53782
+2024-09-26 16:17:54.942 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [dfe37612-291b-49a7-9c99-20fd5dfc4c54] Notify connected event to listeners.
+2024-09-26 16:17:54.942 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2024-09-26 16:17:54.942 [main] INFO  com.alibaba.nacos.common.remote.client - [dfe37612-291b-49a7-9c99-20fd5dfc4c54] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2024-09-26 16:17:54.942 [main] INFO  com.alibaba.nacos.common.remote.client - [dfe37612-291b-49a7-9c99-20fd5dfc4c54] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1261/0x0000026df8903ca0
+2024-09-26 16:17:54.943 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-user with instance Instance{instanceId='null', ip='192.168.1.3', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=[240e:b65:580:5200:3a5:573f:a727:144a], preserved.register.source=SPRING_CLOUD}}
+2024-09-26 16:17:54.952 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user 192.168.1.3:8082 register finished
+2024-09-26 16:17:55.048 [main] INFO  c.q.xiaohashu.user.biz.XiaohashuUserBizApplication - Started XiaohashuUserBizApplication in 3.589 seconds (process running for 3.881)
+2024-09-26 16:17:55.049 [main] INFO  c.q.x.u.biz.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2024-09-26 16:17:55.256 [main] WARN  c.q.x.u.biz.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2024-09-26 16:18:46.363 [Thread-10] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-09-26 16:18:46.363 [Thread-7] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2024-09-26 16:18:46.363 [Thread-7] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2024-09-26 16:18:46.363 [Thread-10] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2024-09-26 16:18:46.382 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2024-09-26 16:18:46.382 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] xiaohashu deregistering service xiaohashu-user with instance: Instance{instanceId='null', ip='192.168.1.3', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@4bbde2c1[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2024-09-26 16:18:46.385 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1727338674794_172.17.0.1_53782
+2024-09-26 16:18:46.387 [nacos-grpc-client-executor-127.0.0.1-22] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1727338674794_172.17.0.1_53782]Ignore complete event,isRunning:false,isAbandon=false
+2024-09-26 16:18:46.387 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@22099e0e[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 23]
+2024-09-26 16:18:46.387 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@239f5c25[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 17]
+2024-09-26 16:18:46.387 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2024-09-26 16:18:46.388 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2024-09-26 16:18:46.388 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2024-09-26 16:18:46.502 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-09-26 16:18:46.506 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-09-26 16:18:48.417 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:18:48.454 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:18:48.699 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:18:48.706 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:18:48.707 [main] INFO  c.q.xiaohashu.user.biz.XiaohashuUserBizApplication - The following 1 profile is active: "dev"
+2024-09-26 16:18:49.003 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-26 16:18:49.005 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-26 16:18:49.017 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-09-26 16:18:49.124 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3b287b35-df5a-313c-94ad-436aa746b180
+2024-09-26 16:18:49.140 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.oss.api.FileFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-26 16:18:49.141 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-26 16:18:49.142 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-26 16:18:49.394 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-09-26 16:18:49.399 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-26 16:18:49.399 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-09-26 16:18:49.450 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-26 16:18:49.450 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 735 ms
+2024-09-26 16:18:49.515 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-09-26 16:18:49.691 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-09-26 16:18:49.855 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-oss' URL not provided. Will try picking an instance via load-balancing.
+2024-09-26 16:18:50.017 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2024-09-26 16:18:50.530 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-09-26 16:18:50.534 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:18:50.534 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2024-09-26 16:18:50.534 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2024-09-26 16:18:50.535 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2024-09-26 16:18:50.547 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2024-09-26 16:18:50.547 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2024-09-26 16:18:50.548 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2024-09-26 16:18:50.550 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2024-09-26 16:18:50.550 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2024-09-26 16:18:50.552 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2024-09-26 16:18:50.557 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 81bee8ae-d3d1-410c-a016-1b72f75aa1a7
+2024-09-26 16:18:50.566 [main] INFO  com.alibaba.nacos.common.remote.client - [81bee8ae-d3d1-410c-a016-1b72f75aa1a7] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2024-09-26 16:18:50.567 [main] INFO  com.alibaba.nacos.common.remote.client - [81bee8ae-d3d1-410c-a016-1b72f75aa1a7] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2024-09-26 16:18:50.567 [main] INFO  com.alibaba.nacos.common.remote.client - [81bee8ae-d3d1-410c-a016-1b72f75aa1a7] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2024-09-26 16:18:50.568 [main] INFO  com.alibaba.nacos.common.remote.client - [81bee8ae-d3d1-410c-a016-1b72f75aa1a7] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2024-09-26 16:18:50.583 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2024-09-26 16:18:51.144 [main] INFO  com.alibaba.nacos.common.remote.client - [81bee8ae-d3d1-410c-a016-1b72f75aa1a7] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1727338730979_172.17.0.1_41574
+2024-09-26 16:18:51.145 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [81bee8ae-d3d1-410c-a016-1b72f75aa1a7] Notify connected event to listeners.
+2024-09-26 16:18:51.146 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2024-09-26 16:18:51.146 [main] INFO  com.alibaba.nacos.common.remote.client - [81bee8ae-d3d1-410c-a016-1b72f75aa1a7] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2024-09-26 16:18:51.147 [main] INFO  com.alibaba.nacos.common.remote.client - [81bee8ae-d3d1-410c-a016-1b72f75aa1a7] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1261/0x000001ee2a900440
+2024-09-26 16:18:51.149 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-user with instance Instance{instanceId='null', ip='192.168.1.3', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=[240e:b65:580:5200:3a5:573f:a727:144a], preserved.register.source=SPRING_CLOUD}}
+2024-09-26 16:18:51.158 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user 192.168.1.3:8082 register finished
+2024-09-26 16:18:51.253 [main] INFO  c.q.xiaohashu.user.biz.XiaohashuUserBizApplication - Started XiaohashuUserBizApplication in 3.193 seconds (process running for 3.466)
+2024-09-26 16:18:51.254 [main] INFO  c.q.x.u.biz.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2024-09-26 16:18:51.465 [main] WARN  c.q.x.u.biz.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2024-09-26 16:19:24.578 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-26 16:19:24.578 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-26 16:19:24.578 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-09-26 16:19:24.585 [http-nio-8082-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:19:24.632 [http-nio-8082-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:19:24.662 [http-nio-8082-exec-1] DEBUG c.q.x.u.biz.domain.mapper.UserDOMapper.selectByIds - ==>  Preparing: select id, nickname, avatar, introduction from t_user where status = 0 and is_deleted = 0 and id in ( ? )
+2024-09-26 16:19:24.749 [http-nio-8082-exec-1] DEBUG c.q.x.u.biz.domain.mapper.UserDOMapper.selectByIds - ==> Parameters: 100(Long)
+2024-09-26 16:19:24.766 [http-nio-8082-exec-1] DEBUG c.q.x.u.biz.domain.mapper.UserDOMapper.selectByIds - <==      Total: 1
+2024-09-26 16:19:24.769 [http-nio-8082-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 138ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2024-09-26 16:19:24.776 [http-nio-8082-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:19:57.826 [http-nio-8082-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:19:57.827 [http-nio-8082-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:19:57.831 [http-nio-8082-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 4ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:19:57.832 [http-nio-8082-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:20:03.552 [http-nio-8082-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:20:03.553 [http-nio-8082-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:20:03.554 [http-nio-8082-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:20:03.555 [http-nio-8082-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:20:04.898 [http-nio-8082-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:20:04.898 [http-nio-8082-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:20:04.900 [http-nio-8082-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:20:04.900 [http-nio-8082-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:20:37.312 [http-nio-8082-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:20:37.313 [http-nio-8082-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:20:37.314 [http-nio-8082-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:20:37.315 [http-nio-8082-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:20:40.867 [http-nio-8082-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:20:40.868 [http-nio-8082-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:20:40.869 [http-nio-8082-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:20:40.869 [http-nio-8082-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:21:30.950 [http-nio-8082-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:21:30.951 [http-nio-8082-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:21:30.952 [http-nio-8082-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:21:30.952 [http-nio-8082-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:22:21.014 [Thread-7] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2024-09-26 16:22:21.014 [Thread-10] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-09-26 16:22:21.014 [Thread-7] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2024-09-26 16:22:21.014 [Thread-10] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2024-09-26 16:22:21.030 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2024-09-26 16:22:21.030 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] xiaohashu deregistering service xiaohashu-user with instance: Instance{instanceId='null', ip='192.168.1.3', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-09-26 16:22:21.034 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2024-09-26 16:22:21.035 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2024-09-26 16:22:21.035 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-09-26 16:22:21.035 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-09-26 16:22:21.035 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2024-09-26 16:22:21.035 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2024-09-26 16:22:21.035 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2024-09-26 16:22:21.035 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2024-09-26 16:22:21.035 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2024-09-26 16:22:21.035 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-09-26 16:22:21.036 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2024-09-26 16:22:21.036 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2024-09-26 16:22:21.036 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2024-09-26 16:22:21.036 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-09-26 16:22:21.036 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2024-09-26 16:22:21.036 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2024-09-26 16:22:21.036 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2024-09-26 16:22:21.036 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@69233fb9[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2024-09-26 16:22:21.036 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1727338730979_172.17.0.1_41574
+2024-09-26 16:22:21.039 [nacos-grpc-client-executor-127.0.0.1-59] WARN  c.a.nacos.common.remote.client.grpc.GrpcClient - [1727338730979_172.17.0.1_41574]Ignore error event,isRunning:false,isAbandon=false
+2024-09-26 16:22:21.039 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@1fabb61a[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 60]
+2024-09-26 16:22:21.040 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@18aeb778[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 69]
+2024-09-26 16:22:21.040 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2024-09-26 16:22:21.040 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2024-09-26 16:22:21.040 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2024-09-26 16:22:21.160 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-09-26 16:22:21.167 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-09-26 16:22:23.203 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:22:23.242 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:22:23.495 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:22:23.502 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:22:23.503 [main] INFO  c.q.xiaohashu.user.biz.XiaohashuUserBizApplication - The following 1 profile is active: "dev"
+2024-09-26 16:22:23.806 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-26 16:22:23.807 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-26 16:22:23.819 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-09-26 16:22:23.925 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3b287b35-df5a-313c-94ad-436aa746b180
+2024-09-26 16:22:23.943 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.oss.api.FileFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-26 16:22:23.944 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-26 16:22:23.944 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-26 16:22:24.203 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-09-26 16:22:24.209 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-26 16:22:24.209 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-09-26 16:22:24.253 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-26 16:22:24.253 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 741 ms
+2024-09-26 16:22:24.315 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-09-26 16:22:24.493 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-09-26 16:22:24.660 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-oss' URL not provided. Will try picking an instance via load-balancing.
+2024-09-26 16:22:24.825 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2024-09-26 16:22:25.302 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-09-26 16:22:25.306 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:22:25.306 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2024-09-26 16:22:25.306 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2024-09-26 16:22:25.307 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2024-09-26 16:22:25.319 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2024-09-26 16:22:25.320 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2024-09-26 16:22:25.320 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2024-09-26 16:22:25.323 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2024-09-26 16:22:25.323 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2024-09-26 16:22:25.324 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2024-09-26 16:22:25.329 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 2336581d-b8cc-47db-aacf-ef0f0e8cbe14
+2024-09-26 16:22:25.340 [main] INFO  com.alibaba.nacos.common.remote.client - [2336581d-b8cc-47db-aacf-ef0f0e8cbe14] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2024-09-26 16:22:25.340 [main] INFO  com.alibaba.nacos.common.remote.client - [2336581d-b8cc-47db-aacf-ef0f0e8cbe14] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2024-09-26 16:22:25.340 [main] INFO  com.alibaba.nacos.common.remote.client - [2336581d-b8cc-47db-aacf-ef0f0e8cbe14] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2024-09-26 16:22:25.342 [main] INFO  com.alibaba.nacos.common.remote.client - [2336581d-b8cc-47db-aacf-ef0f0e8cbe14] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2024-09-26 16:22:25.356 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2024-09-26 16:22:25.912 [main] INFO  com.alibaba.nacos.common.remote.client - [2336581d-b8cc-47db-aacf-ef0f0e8cbe14] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1727338945757_172.17.0.1_45438
+2024-09-26 16:22:25.912 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [2336581d-b8cc-47db-aacf-ef0f0e8cbe14] Notify connected event to listeners.
+2024-09-26 16:22:25.912 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2024-09-26 16:22:25.913 [main] INFO  com.alibaba.nacos.common.remote.client - [2336581d-b8cc-47db-aacf-ef0f0e8cbe14] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2024-09-26 16:22:25.913 [main] INFO  com.alibaba.nacos.common.remote.client - [2336581d-b8cc-47db-aacf-ef0f0e8cbe14] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1261/0x0000025a778ff6e8
+2024-09-26 16:22:25.915 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-user with instance Instance{instanceId='null', ip='192.168.1.3', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=[240e:b65:580:5200:3a5:573f:a727:144a], preserved.register.source=SPRING_CLOUD}}
+2024-09-26 16:22:25.925 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user 192.168.1.3:8082 register finished
+2024-09-26 16:22:26.022 [main] INFO  c.q.xiaohashu.user.biz.XiaohashuUserBizApplication - Started XiaohashuUserBizApplication in 3.178 seconds (process running for 3.465)
+2024-09-26 16:22:26.023 [main] INFO  c.q.x.u.biz.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2024-09-26 16:22:26.237 [main] WARN  c.q.x.u.biz.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2024-09-26 16:22:38.233 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-26 16:22:38.233 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-26 16:22:38.233 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-09-26 16:22:38.238 [http-nio-8082-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:22:38.288 [http-nio-8082-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:22:38.298 [http-nio-8082-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 9ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:22:38.304 [http-nio-8082-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:23:23.196 [http-nio-8082-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:23:23.197 [http-nio-8082-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:23:23.199 [http-nio-8082-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:23:23.199 [http-nio-8082-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:25:20.389 [http-nio-8082-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:25:20.389 [http-nio-8082-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[100,101,28]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:25:20.415 [http-nio-8082-exec-2] DEBUG c.q.x.u.biz.domain.mapper.UserDOMapper.selectByIds - ==>  Preparing: select id, nickname, avatar, introduction from t_user where status = 0 and is_deleted = 0 and id in ( ? , ? )
+2024-09-26 16:25:20.502 [http-nio-8082-exec-2] DEBUG c.q.x.u.biz.domain.mapper.UserDOMapper.selectByIds - ==> Parameters: 101(Long), 28(Long)
+2024-09-26 16:25:20.513 [http-nio-8082-exec-2] DEBUG c.q.x.u.biz.domain.mapper.UserDOMapper.selectByIds - <==      Total: 2
+2024-09-26 16:25:20.516 [http-nio-8082-exec-2] ERROR c.q.x.user.biz.exception.GlobalExceptionHandler - /user/findByIds request error, 
+java.lang.UnsupportedOperationException: null
+	at java.base/java.util.ImmutableCollections.uoe(ImmutableCollections.java:142)
+	at java.base/java.util.ImmutableCollections$AbstractImmutableCollection.addAll(ImmutableCollections.java:148)
+	at com.quanxiaoha.xiaohashu.user.biz.service.impl.UserServiceImpl.findByIds(UserServiceImpl.java:464)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699)
+	at com.quanxiaoha.xiaohashu.user.biz.service.impl.UserServiceImpl$$SpringCGLIB$$0.findByIds(<generated>)
+	at com.quanxiaoha.xiaohashu.user.biz.controller.UserController.findByIds(UserController.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.quanxiaoha.framework.biz.operationlog.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.quanxiaoha.xiaohashu.user.biz.controller.UserController$$SpringCGLIB$$0.findByIds(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.quanxiaoha.framework.biz.context.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-09-26 16:25:20.517 [http-nio-8082-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:25:24.275 [http-nio-8082-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:25:24.275 [http-nio-8082-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:25:24.278 [http-nio-8082-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 3ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:25:24.278 [http-nio-8082-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:25:34.840 [http-nio-8082-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:25:34.840 [http-nio-8082-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:25:34.841 [http-nio-8082-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:25:34.842 [http-nio-8082-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:25:36.021 [http-nio-8082-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:25:36.022 [http-nio-8082-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:25:36.023 [http-nio-8082-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:25:36.024 [http-nio-8082-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:25:49.730 [http-nio-8082-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:25:49.731 [http-nio-8082-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[100,101,28]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:25:49.733 [http-nio-8082-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null}]} =================================== 
+2024-09-26 16:25:49.734 [http-nio-8082-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:25:58.185 [http-nio-8082-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:25:58.185 [http-nio-8082-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:25:58.187 [http-nio-8082-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:25:58.187 [http-nio-8082-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:00.857 [http-nio-8082-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:00.858 [http-nio-8082-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:00.860 [http-nio-8082-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:00.861 [http-nio-8082-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:02.648 [http-nio-8082-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:02.649 [http-nio-8082-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:02.650 [http-nio-8082-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:02.651 [http-nio-8082-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:03.842 [http-nio-8082-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:03.843 [http-nio-8082-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:03.845 [http-nio-8082-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:03.846 [http-nio-8082-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:04.831 [http-nio-8082-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:04.832 [http-nio-8082-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:04.834 [http-nio-8082-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:04.834 [http-nio-8082-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:05.776 [http-nio-8082-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:05.777 [http-nio-8082-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:05.778 [http-nio-8082-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:05.779 [http-nio-8082-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:06.671 [http-nio-8082-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:06.671 [http-nio-8082-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:06.673 [http-nio-8082-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:06.673 [http-nio-8082-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:07.484 [http-nio-8082-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:07.485 [http-nio-8082-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:07.487 [http-nio-8082-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:07.487 [http-nio-8082-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:08.251 [http-nio-8082-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:08.253 [http-nio-8082-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:08.254 [http-nio-8082-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:08.254 [http-nio-8082-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:08.963 [http-nio-8082-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:08.964 [http-nio-8082-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:08.965 [http-nio-8082-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:08.966 [http-nio-8082-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:09.636 [http-nio-8082-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:09.636 [http-nio-8082-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:09.638 [http-nio-8082-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:09.638 [http-nio-8082-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:10.342 [http-nio-8082-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:10.343 [http-nio-8082-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:10.344 [http-nio-8082-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:10.345 [http-nio-8082-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:11.133 [http-nio-8082-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:11.134 [http-nio-8082-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:11.135 [http-nio-8082-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:11.136 [http-nio-8082-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:11.891 [http-nio-8082-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:11.892 [http-nio-8082-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:11.894 [http-nio-8082-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:11.894 [http-nio-8082-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:12.611 [http-nio-8082-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:12.612 [http-nio-8082-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:12.613 [http-nio-8082-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:12.614 [http-nio-8082-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:13.317 [http-nio-8082-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:13.317 [http-nio-8082-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:13.318 [http-nio-8082-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:13.319 [http-nio-8082-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:13.964 [http-nio-8082-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:13.964 [http-nio-8082-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:13.965 [http-nio-8082-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:13.966 [http-nio-8082-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:14.591 [http-nio-8082-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:14.592 [http-nio-8082-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:14.593 [http-nio-8082-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:14.594 [http-nio-8082-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:15.278 [http-nio-8082-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:15.278 [http-nio-8082-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:15.280 [http-nio-8082-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:15.280 [http-nio-8082-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:15.906 [http-nio-8082-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:15.907 [http-nio-8082-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:15.908 [http-nio-8082-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:15.908 [http-nio-8082-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:16.572 [http-nio-8082-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:16.573 [http-nio-8082-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:16.574 [http-nio-8082-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:16.574 [http-nio-8082-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:18.127 [http-nio-8082-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:18.128 [http-nio-8082-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:18.129 [http-nio-8082-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:18.130 [http-nio-8082-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:19.368 [http-nio-8082-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:19.369 [http-nio-8082-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:19.370 [http-nio-8082-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:19.371 [http-nio-8082-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:28.634 [http-nio-8082-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:28.635 [http-nio-8082-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:28.636 [http-nio-8082-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:28.636 [http-nio-8082-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:29.525 [http-nio-8082-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:29.526 [http-nio-8082-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:29.527 [http-nio-8082-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:29.527 [http-nio-8082-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:30.190 [http-nio-8082-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:30.191 [http-nio-8082-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:30.192 [http-nio-8082-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:30.192 [http-nio-8082-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:30.914 [http-nio-8082-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:30.915 [http-nio-8082-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:30.916 [http-nio-8082-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:30.917 [http-nio-8082-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:31.528 [http-nio-8082-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:31.529 [http-nio-8082-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:31.530 [http-nio-8082-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:31.530 [http-nio-8082-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:42.366 [http-nio-8082-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:42.367 [http-nio-8082-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[100,101,28]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:42.369 [http-nio-8082-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null}]} =================================== 
+2024-09-26 16:26:42.369 [http-nio-8082-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:45.425 [http-nio-8082-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:45.426 [http-nio-8082-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:45.427 [http-nio-8082-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:45.427 [http-nio-8082-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:46.771 [http-nio-8082-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:46.772 [http-nio-8082-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:46.773 [http-nio-8082-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:46.773 [http-nio-8082-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:26:47.687 [http-nio-8082-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:26:47.687 [http-nio-8082-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:26:47.689 [http-nio-8082-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:26:47.690 [http-nio-8082-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:39:35.993 [Thread-7] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2024-09-26 16:39:35.994 [Thread-10] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-09-26 16:39:35.994 [Thread-7] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2024-09-26 16:39:35.994 [Thread-10] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2024-09-26 16:39:36.026 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2024-09-26 16:39:36.026 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] xiaohashu deregistering service xiaohashu-user with instance: Instance{instanceId='null', ip='192.168.1.3', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-09-26 16:39:36.029 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2024-09-26 16:39:36.029 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2024-09-26 16:39:36.029 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-09-26 16:39:36.029 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@46687ac4[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2024-09-26 16:39:36.030 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1727338945757_172.17.0.1_45438
+2024-09-26 16:39:36.033 [nacos-grpc-client-executor-127.0.0.1-225] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1727338945757_172.17.0.1_45438]Ignore complete event,isRunning:false,isAbandon=false
+2024-09-26 16:39:36.034 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@475b6e8c[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 226]
+2024-09-26 16:39:36.034 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@55d8f631[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 342]
+2024-09-26 16:39:36.034 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2024-09-26 16:39:36.034 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2024-09-26 16:39:36.034 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2024-09-26 16:39:36.161 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-09-26 16:39:36.162 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-09-26 16:39:38.106 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:39:38.144 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:39:38.424 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:39:38.432 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:39:38.432 [main] INFO  c.q.xiaohashu.user.biz.XiaohashuUserBizApplication - The following 1 profile is active: "dev"
+2024-09-26 16:39:38.733 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-26 16:39:38.734 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-26 16:39:38.746 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-09-26 16:39:38.856 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3b287b35-df5a-313c-94ad-436aa746b180
+2024-09-26 16:39:38.872 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.oss.api.FileFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-26 16:39:38.873 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-26 16:39:38.873 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-26 16:39:39.128 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-09-26 16:39:39.133 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-26 16:39:39.133 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-09-26 16:39:39.178 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-26 16:39:39.178 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 737 ms
+2024-09-26 16:39:39.240 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-09-26 16:39:39.416 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-09-26 16:39:39.579 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-oss' URL not provided. Will try picking an instance via load-balancing.
+2024-09-26 16:39:39.739 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2024-09-26 16:39:40.220 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-09-26 16:39:40.224 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2024-09-26 16:39:40.224 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2024-09-26 16:39:40.224 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2024-09-26 16:39:40.225 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2024-09-26 16:39:40.238 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2024-09-26 16:39:40.238 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2024-09-26 16:39:40.238 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2024-09-26 16:39:40.240 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2024-09-26 16:39:40.240 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2024-09-26 16:39:40.242 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2024-09-26 16:39:40.246 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 19a826d1-3963-4491-8cc2-14b915c98abf
+2024-09-26 16:39:40.256 [main] INFO  com.alibaba.nacos.common.remote.client - [19a826d1-3963-4491-8cc2-14b915c98abf] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2024-09-26 16:39:40.256 [main] INFO  com.alibaba.nacos.common.remote.client - [19a826d1-3963-4491-8cc2-14b915c98abf] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2024-09-26 16:39:40.257 [main] INFO  com.alibaba.nacos.common.remote.client - [19a826d1-3963-4491-8cc2-14b915c98abf] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2024-09-26 16:39:40.258 [main] INFO  com.alibaba.nacos.common.remote.client - [19a826d1-3963-4491-8cc2-14b915c98abf] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2024-09-26 16:39:40.273 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2024-09-26 16:39:40.834 [main] INFO  com.alibaba.nacos.common.remote.client - [19a826d1-3963-4491-8cc2-14b915c98abf] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1727339980679_172.17.0.1_44846
+2024-09-26 16:39:40.834 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [19a826d1-3963-4491-8cc2-14b915c98abf] Notify connected event to listeners.
+2024-09-26 16:39:40.834 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2024-09-26 16:39:40.834 [main] INFO  com.alibaba.nacos.common.remote.client - [19a826d1-3963-4491-8cc2-14b915c98abf] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2024-09-26 16:39:40.834 [main] INFO  com.alibaba.nacos.common.remote.client - [19a826d1-3963-4491-8cc2-14b915c98abf] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1261/0x000001f101902510
+2024-09-26 16:39:40.835 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-user with instance Instance{instanceId='null', ip='192.168.1.3', port=8082, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=[240e:b65:580:5200:3a5:573f:a727:144a], preserved.register.source=SPRING_CLOUD}}
+2024-09-26 16:39:40.844 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user 192.168.1.3:8082 register finished
+2024-09-26 16:39:40.940 [main] INFO  c.q.xiaohashu.user.biz.XiaohashuUserBizApplication - Started XiaohashuUserBizApplication in 3.207 seconds (process running for 3.482)
+2024-09-26 16:39:40.941 [main] INFO  c.q.x.u.biz.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2024-09-26 16:39:41.155 [main] WARN  c.q.x.u.biz.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2024-09-26 16:40:07.435 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-26 16:40:07.435 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-26 16:40:07.436 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-09-26 16:40:07.443 [http-nio-8082-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:40:07.497 [http-nio-8082-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:40:07.506 [http-nio-8082-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 10ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:40:07.512 [http-nio-8082-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:40:18.586 [http-nio-8082-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:40:18.586 [http-nio-8082-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:40:18.587 [http-nio-8082-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:40:18.588 [http-nio-8082-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:40:37.475 [http-nio-8082-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:40:37.476 [http-nio-8082-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:40:37.477 [http-nio-8082-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:40:37.478 [http-nio-8082-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:41:10.892 [http-nio-8082-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:41:10.892 [http-nio-8082-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:41:10.894 [http-nio-8082-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:41:10.894 [http-nio-8082-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:42:25.934 [http-nio-8082-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:42:25.935 [http-nio-8082-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:42:25.936 [http-nio-8082-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:42:25.937 [http-nio-8082-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:42:28.073 [http-nio-8082-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:42:28.073 [http-nio-8082-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:42:28.075 [http-nio-8082-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:42:28.076 [http-nio-8082-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:42:28.803 [http-nio-8082-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:42:28.803 [http-nio-8082-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:42:28.805 [http-nio-8082-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:42:28.805 [http-nio-8082-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
+2024-09-26 16:42:29.455 [http-nio-8082-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 27
+2024-09-26 16:42:29.456 [http-nio-8082-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [批量查询用户信息], 入参: {"ids":[28,101,100]}, 请求类: UserController, 请求方法: findByIds =================================== 
+2024-09-26 16:42:29.458 [http-nio-8082-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [批量查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":28,"nickName":"小红薯10100","avatar":null,"introduction":null},{"id":101,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/f22e21fb0c144c088bd20bc616916ff3.jpg","introduction":"    一枚 Java 程序员"},{"id":100,"nickName":"犬小哈","avatar":"http://127.0.0.1:9000/xiaohashu/14d8b7c3adad49f5b81dfa68417c0ab3.jpg","introduction":"    一枚 Java 程序员"}]} =================================== 
+2024-09-26 16:42:29.459 [http-nio-8082-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 27
